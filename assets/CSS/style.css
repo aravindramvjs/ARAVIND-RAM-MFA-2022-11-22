@@ -1,0 +1,122 @@
+body{
+    font-family: 'Barlow';
+    margin: 50px 100px 50px 100px ;
+}
+h1{
+    font-family: 'Barlow Condensed';
+    text-transform: uppercase;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.order-btn{
+    color: #182642;
+    background-color: #e7eff2;
+    border-radius: 5px;
+    border: 1px solid #e7eff2;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 13px;
+    width: 150px;
+    letter-spacing: 1px;
+}
+.row-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    
+}
+.keyboard-img-1{
+    margin-left: 250px;
+    width: 550px;
+    border-radius: 10px;
+}
+.main-content h1{
+    font-size: 80px;
+    font-weight: 900;
+    color: #162441;
+    text-transform: uppercase;
+    line-height: 70px;
+
+}
+.main-content p{
+    color: #909eba;
+    font-size: 19px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.order-btn-2{
+    color: white;
+    background-color: #f36718;
+    border-radius: 5px;
+    border: 1px solid #f36718;
+    text-transform: uppercase;
+    font-size: 13px;
+    width: 150px;
+    height: 50px;
+    letter-spacing: 1px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.btn p{
+    text-align: center;
+}
+.row-2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.keyboard-img-2{
+    width: 350px;
+    height: 550px;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+    filter: invert(38%) sepia(13%) saturate(3207%) hue-rotate(351deg) brightness(85%) contrast(90%);
+}
+.keyboard-img-3{
+    height: 550px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.content {
+    margin-left: 150px;
+    margin-top: 150px;
+    height: 20px;
+}
+.content h1{
+    color: #162441;
+    font-size: 50px;
+}
+.content p{
+    color: #7b89ac;
+    font-size: 18px;
+}
+.feature-icon{
+    background-color: hsl(22, 89%, 52%) ;
+    padding: 10px;
+    border-radius: 10px;
+}
+.row-3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px ;
+}
+.column{
+    margin: 10px;
+}
+.features{
+    color: #162441;
+    font-size: 47px;
+}
+.description{
+    color: #7b89ac;
+    font-size: 18px;
+}
+footer{
+    text-align: center;
+}
